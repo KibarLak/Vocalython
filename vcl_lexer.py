@@ -11,7 +11,7 @@ class BasicLexer(Lexer):
     IF = r'JK'
     THEN = r'MK'
     ELSE = r'LN'
-    FOR = r'UNTK'
+    FOR = r'NTK'
     FUN = r'FNGS'
     TO = r'SMP'
     ARROW = r'->'

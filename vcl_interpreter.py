@@ -56,7 +56,7 @@ class BasicExecute:
             try:
                 return self.walkTree(self.env[node[1]])
             except LookupError:
-                print("Undefined function '%s'" % node[1])
+                print("fungsi tidak terdefinisi'%s'" % node[1])
                 return 0
 
         if node[0] == 'add':
@@ -88,7 +88,7 @@ class BasicExecute:
             try:
                 return self.env[node[1]]
             except LookupError:
-                print("Undefined variable '"+node[1]+"' found!")
+                print("variabel tidak terdefinisi'"+node[1]+"' terdeteksi!")
                 return 0
 
         if node[0] == 'for_loop':
