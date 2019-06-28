@@ -1,0 +1,1 @@
+NTK i=0 SMP 5 MK CTK i
