@@ -1,6 +1,6 @@
-# VCL-Lang
+# Vocalython
 Teknik Kompilasi
-VCL-lang dibuat dengan library sly
+Vocalython dibuat dengan library sly
 [Library SLY](https://sly.readthedocs.io/en/latest/sly.html).
 
 ## Anggota Kelompok:
@@ -10,33 +10,33 @@ VCL-lang dibuat dengan library sly
 
 ---
 
-# Documentation
+# Dokumentasai
 
-## Tntang
+## Tentang
 
-- [x] this language is created using the SLY library which is supported with [PYTHON version 3.*](https://www.python.org/ "Python")
-- [x] this language has the extension .rhs
+- [x] Vocalython dibuat dengan library SLY [PYTHON version 3.7.1](https://www.python.org/ "Python")
+- [x] Vocalython berekstensi .vcl
 
 ## Sintaks
 
-| RHS-LANG |  MEAN  |
-| -------- |  ----  |
-| JK       |  IF    |
-| CTK      |  PRINT |
-| MK       |  THEN  |
-| LN       |  ELSE  |
-| NTK      |  FOR   |
-| FNGS     |  FUN   |
-| SMP      |  TO    |
-| ->       |  ARROW |
+| Vocalython |  MEAN  |
+| ---------- |  ----  |
+| JK         |  IF    |
+| CTK        |  PRINT |
+| MK         |  THEN  |
+| LN         |  ELSE  |
+| NTK        |  FOR   |
+| FNGS       |  FUN   |
+| SMP        |  TO    |
+| ->         |  ARROW |
 
 
 ## CARA MENGGUNAKAN 
 
 **Langkah-langkah**
 
-1. Buka CMD atau terminal dengan direktori berikut `cd .../Rhs-Lang/`
-2. Lalu run file main.py in the VCL-Lang folder
+1. Buka CMD atau terminal dengan direktori berikut `cd .../Vocalython/`
+2. Lalu run file main.py in the Vocalython folder
 
 for ex:
 copy paste teks berikut ke CMD/terminal
@@ -44,11 +44,11 @@ copy paste teks berikut ke CMD/terminal
 python .main.py .bahasa.vcl
 ```
 
-**_VCL-lang siap dijalankan_**
+**_Vocalython siap dijalankan_**
 
-> You can edit file code in the `Bahasaku.rhs`
+> edit dan sesuaikan `Bahasa.vcl`
 
-## Contoh penggunaan VCL-lang
+## Contoh penggunaan Vocalython
 
 ### Mencetak "Hello world"
 
@@ -136,7 +136,7 @@ JK a==6 MK CTK b LN CTK c
 NTK i=0 OT 5 MK CTK i
 ```
 
-**result**
+**hasil**
 ```
 0
 1
